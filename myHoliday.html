@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="https://png.pngtree.com/png-clipart/20210321/original/pngtree-letter-g-font-3d-donut-png-image_6108820.jpg" />
+    <title>Photo Gallery Saya</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background: #f5f6f7;
+      }
+      .header {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 32px;
+        background-color: #0a0a23;
+        color: #fff;
+        border-bottom: 4px solid #fdb347;
+      }
+      nav {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 0;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #fdb347;
+      }
+      .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px 10px;
+      }
+      .gallery img {
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .gallery::after {
+        content: "";
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Galeri Liburan Saya</h1>
+    </header>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">About</a>
+      <a href="registration.html">Registration</a>
+    </nav>
+
+    <div class="gallery">
+      <img src="image1.jpg" alt ="image 1">
+      <img src="image2.jpg" alt ="image 2">
+      <img src="image3.jpg" alt ="image 3">
+      <img src="image4.jpg" alt ="image 4">
+      <img src="image5.jpg" alt ="image 5">
+      <img src="image6.jpg" alt ="image 6">
+      <img src="image7.jpg" alt ="image 7">
+    </div>
+  </body>
+</html>

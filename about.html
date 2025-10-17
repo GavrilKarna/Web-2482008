@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="https://png.pngtree.com/png-clipart/20210321/original/pngtree-letter-g-font-3d-donut-png-image_6108820.jpg" />
+    <title>Tentang Saya</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 30px;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            background: #ffffff;
+            box-shadow: 0 0 10px #e6e6e6;
+            border-radius: 10px;
+        }
+        td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 10px 0;
+        }
+        p, li {
+            color: #444;
+            line-height: 1.6;
+        }
+        .nav {
+            background-color: #e9eef4;
+            padding: 10px 0;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: #0078d7;
+        }
+        .photo {
+            display: inline-block;
+            width: 150px; 
+            max-width: 200px;
+            aspect-ratio: 3 / 4;
+            object-fit: cover; 
+            border-radius: 8px;
+            border: 2px solid #bbb;
+        }
+        h6 {
+            color: #777;
+            margin-top: 8px;
+        }
+        td:first-child {
+            background-color: #f9fafc;
+            text-align: center;
+            border-right: 1px solid #ddd;
+        }
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+            tr, td {
+                display: block;
+                width: 100%;
+            }
+            .nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+            .photo {
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table>
+        <tr>
+            <td colspan="3" align="center">
+                <h1>Tentang Saya</h1>
+            </td>
+        </tr>
+        <tr class="nav"><!-- Navigasi -->
+            <td colspan="3" align="center">
+                <a href="index.html">Beranda</a>
+                <a href="myHoliday.html">MyHoliday</a>
+                <a href="registration.html">Registration</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="220px">
+                <!-- Ganti src ke file foto Anda (mis. "Gavril2.jpg").
+                     Saat ini menggunakan placeholder 150x200 (rasio 3:4). -->
+                <img class="photo" src="Gavril2.jpg" alt="Foto Saya" width="150" height="200">
+                <h6>Foto Saya</h6>
+            </td>
+
+            <td colspan="2">
+                <h1>Halo!</h1>
+                <p>Nama saya <b>Gavril Ziro Karna</b>. Saya adalah anak pertama dari dua bersaudara. 
+                Saya seorang pelajar yang suka belajar teknologi, bisnis, dan hal-hal baru. Karena itu saya mengambil jurusan 
+                Sistem Informasi di Universitas Advent Indonesia.</p>
+
+                <h2>Visi</h2>
+                <p>Mengembangkan keterampilan dalam bidang <i>Bisnis</i> dan <i>Desain Web</i>.</p>
+
+                <h3>Hobi</h3>
+                <ol type="A">
+                    <li>Nonton Anime untuk memperluas imajinasi</li>
+                    <li>Bermain Badminton untuk menjaga kebugaran</li>
+                    <li>Belajar Coding untuk menambah keterampilan logika</li>
+                </ol>
+
+                <h4>Minat</h4>
+                <ul style="list-style-type:square;">
+                    <li>Teknologi AI</li>
+                    <li>Desain Grafis</li>
+                    <li>Fotografi dan Editing</li>
+                </ul>
+
+                <h5>Terima Kasih</h5>
+            </td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>

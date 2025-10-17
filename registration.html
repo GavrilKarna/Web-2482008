@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+    Nama : Gavril Ziro Karna
+    Nim  : 2482008
+-->
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="https://png.pngtree.com/png-clipart/20210321/original/pngtree-letter-g-font-3d-donut-png-image_6108820.jpg" />
+    <title>Formulir Pendaftaran</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgb(20, 174, 61);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+        nav {
+            background-color: darkgreen;
+            width: 100%;
+            padding: 12px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #0c9a04
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 25px 30px;
+            border-radius: 7px;
+            width: 90%;
+            max-width: 500px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: rgb(0, 75, 0);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            color: darkgreen;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid rgb(166, 192, 160);
+            background: #f9fff9;
+            border-radius: 4px;
+        }
+        input:focus, textarea:focus, select:focus {
+            border-color: darkolivegreen;
+            outline: none;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: rgb(35, 111, 35);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: darkgreen;
+        }
+        footer {
+            margin-top: 30px;
+            color: white;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="myHoliday.html">MyHoliday</a>
+    </nav>
+    <div class="form-container">
+        <h2>Formulir Pendaftaran</h2>
+        <form action="#" method="post">
+            <label for="namalengkap">Nama Lengkap</label>
+            <input type="text" id="namalengkap" name="namalengkap" 
+            placeholder="Masukkan nama lengkap" required>
+            <label for="tanggallahir">Tanggal Lahir</label>
+            <input type="date" id="tanggallahir" name="tanggallahir" required>
+            <label for="telepon">Nomor Telepon</label>
+            <input type="tel" id="telepon" name="telepon" 
+            placeholder="Masukkan nomor telepon" required>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" 
+            placeholder="Masukkan alamat e-mail" required>
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" rows="3" 
+            placeholder="Masukkan alamat lengkap" required></textarea>
+            <label for="kota">Kota</label>
+            <input type="text" id="kota" name="kota" 
+            placeholder="Masukkan kota tempat tinggal" required>
+            <label for="kodepos">Kode Pos</label>
+            <input type="number" id="kodepos" name="kodepos" 
+            placeholder="Masukkan kode pos" required>
+            <button type="submit" class="btn">Daftar Sekarang</button>
+        </form>
+    </div>
+
+    <footer>
+        2025 &copy; Gavril Ziro Karna | 2482008
+    </footer>
+
+</body>
+</html>
